@@ -12,10 +12,14 @@ This app has been developed using Java, Twitter API, RESTful Webservices.<br>
 This supports pagination as well.<br>
 2.	We enter two twitter handles and return the list of their shared friends.<br>
 This has pagination functionality.<br>
+
+## Environment
+1. Eclipse IDE 
+
 ##Steps to run the app:
 1.	$git clone https://github.com/APIEngineerTest/TwitterApp<br>
 2.	$cd TwitterApp<br>
-3.	Import the project using eclipse.<br>
+3.	Import the project using eclipse.<br>     http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftasks-importproject.htm<br>
 4.  Add the following jars to your application using build path.<br>
     a.	Commons-io-1.3.2.jar<br>
     b.	Commons-logging-1.1.1.jar<br>
