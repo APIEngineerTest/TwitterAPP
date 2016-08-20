@@ -21,6 +21,7 @@ This has pagination functionality.<br>
 2.	$cd TwitterApp<br>
 3.	Import the project using eclipse.<br>     http://help.eclipse.org/kepler/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Ftasks%2Ftasks-importproject.htm<br>
 4.  Add the following jars to your application using build path.<br>
+    Reference: http://stackoverflow.com/questions/3280353/how-to-import-a-jar-in-eclipse<br>
     a.	Commons-io-1.3.2.jar<br>
     b.	Commons-logging-1.1.1.jar<br>
     c.	Httpcore-4.0-beta3.jar<br>
@@ -82,3 +83,6 @@ Click on Enter<br>
 b.	It displays the next 10 shared friends of the users <br>
 c.	If you want to keep seeing the next set of shared friends, then we need to keep entering ‘f’ i.e. step a. until we want to see all the shared friends of the user.<br>
 So the pagination feature is achieved / displayed using the above instructions.<br>
+
+### Assignment
+The assignment has been submitted in the same repository, a file named API Engineer Test under APIEngineerTest folder. <br>
