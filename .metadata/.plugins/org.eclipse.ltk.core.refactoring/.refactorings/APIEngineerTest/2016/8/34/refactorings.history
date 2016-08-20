@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;implementtwitterapi&apos; to &apos;org.twitter.webservice.client&apos;&#x0D;&#x0A;- Original project: &apos;APIEngineerTest&apos;&#x0D;&#x0A;- Original element: &apos;APIEngineerTest/src/implementtwitterapi&apos;&#x0D;&#x0A;- Renamed element: &apos;APIEngineerTest/src/org.twitter.webservice.client&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;implementtwitterapi&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;implementtwitterapi" name="org.twitter.webservice.client" qualified="false" references="true" stamp="1471652735774" textual="false" version="1.0"/>
+</session>

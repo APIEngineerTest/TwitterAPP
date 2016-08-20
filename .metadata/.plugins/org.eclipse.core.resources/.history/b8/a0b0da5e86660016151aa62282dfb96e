@@ -1,0 +1,5 @@
+package org.twitter.webservice.client;
+
+public class Feature2SharedFriends {
+
+}

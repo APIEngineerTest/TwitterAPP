@@ -1,0 +1,138 @@
+# Overview
+
+* What are all the HTTP verbs, and what do they mean in the context of REST?
+
+Answer: As we know, REST uses HTTP protocol for communication between client and server, the consumers will be able to send GET, POST, PUT and DELETE verbs. Each of the verbs are discussed below:
+        GET	: It is used to read a specific resource or multiple resources.
+	POST	: It is used to create a new resource and also have server to create the URI.
+	PUT	: It is used to update a specific resource.
+	DELETE  : It is used to delete a specific resource or multiple resources.
+	
+	All the verbs use Uniform Resource Identifiers to perform the respective operations. 
+	With respect to REST, all of them are annotations used to specify the HTTP methods.
+
+* Explain CORS
+Answer: CORS stands for Cross Origin Resource Sharing. 
+        Whenever we are working on web applications, CORS provides a feature to provide a feature to a web application in one domain to interact with resources in another domain.
+	For example, if we are working with fonts and if our Domain doesn't have fonts, they can be accessed from another domain.
+	CORS can be obtained by using HTTP Methods (GET , POST and PUT), Headers like access-control, accept-language,content-language,content-type
+
+* What is the sequence of steps that happen after I open up my web browser & type "www.facebook.com" into the urlbar?
+Answer: As soon as a user types the Url in the Urlbar, the request is being sent from Client to the Server int he form of HttpRequest format.
+	When server receives the request, it will create two objects request and response.
+	As soon as the server receives the request, it will read the contents from HttpRequest format places it inside request Object.
+	The server will place the requested resource name in the request object.
+	Server will open the request object and gets the resource name and checks if there is any url pattern in web.xml, which matches  the resource name.
+	If it is available, then it will check for corresponding Servlet name. Once it finds the Servlet name, it checks for Servlet class name.
+	Now the server checks if any servlet object is available or not, if its not available it will create a new object.
+
+	Server  will remove the request and response object when the response is sent back to the client. 
+
+* Explain the same-origin policy?
+Answer: This concept is related to the web application security, which means, we can access one web page from another web page if and only if both the web pages are related to the 
+	same application. Same application means, all the parameters like protocol,host, port number and domain should be same. If this concept is not available then we will face 
+	more problems.
+	For example, if we open bank application and we forget to logout then other applications which are having some malicious script can send request to your bank application 
+	so that they can access your bank application since the bank application is allowing any request which is coming from any domain.
+
+* What is idempotency?
+Answer: If the client calls the same API multiple times, we must get the same result. Multiple calls must return the same response similar to a single request.
+Forexample, consider methods like, GET, PUT, DELETE are idempotent because multiple identical requests behave the same  way and would result in a similar state.
+
+* Do you have a portfolio? If so, add a link, or attach a zip 
+
+Answer: I do not have a portfolio
+
+* Provide a link to your github profile?
+Answer: https://github.com/SwathiDameraSCU
+
+* What is a recent technical challenge you experienced and how did you solve it?
+Answer: 
+
+* Which web backend/REST frameworks have you used?
+Answer: I have used Jersey implementation for REST.
+
+* What is REST?
+REST stands for Representational State Transfer. 
+It is an architechtural style, which relies on stateless protocol and uses HTTP protocol for the communication between the client and the server. 
+It can support various inputs like text, JSON, XML etc.
+REST uses HTTP methods like GET, POST,PUT, DELETE for performing CRUD operations.
+
+* What tools/frameworks have you used for REST API testing?
+Answer: I have used Postman, a plug in tool for chrome browser to test REST API.
+
+* Have you used swagger.io or any other schema-definition languages/tools?
+Answer: I have used XML notepad.
+
+* What is the distinction between PUT and PATCH?
+Answer: HTTP methods, PUT and PATCH, although, both are used to modify an existing resource, they differ in a way the server processes the resource identified by the URI. 
+        PUT - Whenever we want to replace/modify the complete resource based on URI, we use PUT.
+	PATCH - Whenever we want to update the resource partially, for example, if we are trying to modify only one field in a resource, we use PATCH.
+
+* How do you ensure idempotent resource creation with REST?
+Answer: By using GET, HEAD, OPTIONS, TRACE, since identical requests will give us the same response.
+
+## Languages
+
+* Which programming languages do you know? 
+Answer: Java (proficient), Javascript, SQL
+
+* What is a closure?
+Answer: Closure is a feature which supports inner functions i.e.; the function definitions and expressions are written inside another functions.
+        The inner functions has access to the local variables, parameters and declared inner functions within the outer function. 
+	Which means, If we declare any thing in the parent function we can access the same in the child too.
+	Example: 
+	function parentFunc(){
+		var x = 10;
+		function childFunc(){
+			alert(x);
+		}
+		childFunc();
+	}
+	parentFunc();
+
+## MISC
+
+* Which websites or blogs do you read to keep up with the industry and current development standards?
+Answer: There's no particular website/ blog as such, but I keep up with the trends by following TechCrunch, DZone to name a few. 
+
+* What is your favorite public or open-source REST Api's that have you used? And what have you used for it?
+Answer: I have not worked with an open source REST API.
+
+* What is caching? Advantages/Disadvantages? How you determine what should be cached, and what shouldn't?
+Answer: Caching is an area in computer's memory where the instructions that repeatedly needed to run the programs is stored temprarily.
+	The content that is cached can be HTML page, files and images.
+
+	Advantages:
+	We can access cached resources faster, so increases the performance.
+	It saves the bandwidth.
+	
+	Disadvantage:
+	Giving an ld copy of a resource intead of the updated copy.
+
+	Anything which requires authentication must not be cached, else we can cache any other kind of data, forexample repeatedly searched data.
+
+* what caching services/servers have you used?
+Answer: I did not get an opportunity to use any caching services till now.
+
+
+## Coding Test
+
+### Use the language of your choice
+
+* Write a client for the Twitter search API
+   1. Feature: Accept a twitter handle, it should return the last X posts by that person.
+    * Bonus points: support pagination
+   2. Feature: Enter 2 twitter handles
+    * Return a list of their shared friends
+    * Bonus points: support pagination
+   3. A basic HTML webpage that lets me interact with the client above
+    * Bonus points: make it as fancy-looking as you like
+
+#### Please make sure to give us detailed compile & run instructions
+#### Assume I have never written code in your language of choice
+#### Please add machinshin as a collaborator to your github repository. Be sure to include compile and run instructions in your github
+
+
+
+
