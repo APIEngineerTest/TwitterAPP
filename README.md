@@ -85,4 +85,4 @@ c.	If you want to keep seeing the next set of shared friends, then we need to ke
 So the pagination feature is achieved / displayed using the above instructions.<br>
 
 ### Assignment
-The assignment has been submitted in the same repository, a file named API Engineer Test under APIEngineerTest folder. <br>
+The assignment has been submitted in the same repository, a file named API Engineer Test under Assignment folder. <br>
