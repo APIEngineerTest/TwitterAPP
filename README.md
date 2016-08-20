@@ -6,7 +6,8 @@ This project is a client which is uses Twitter API. <br>
 The purpose of the project is to learn and implement the Twitter API. <br>
 The main focus in this project is on the back-end implementation using RESTful webservices. <br>
 This app has been developed using Java, Twitter API, RESTful Webservices.<br>
-The following are the features for this app.<br>
+
+####The following are the features for this app.<br>
 1.	Accepts a twitter handle and return the last X posts by that person.<br>
 This supports pagination as well.<br>
 2.	We enter two twitter handles and return the list of their shared friends.<br>
@@ -25,7 +26,8 @@ This has pagination functionality.<br>
     g.	Signpost-core-1.2.jar<br>
     h.	Commons-codec-1.3.jar<br>
     i.	Httpclient-4.0.1.jar<br>
-5.	Once the jar files have been added, please run the application using run command in Eclipse.<br>
+5.	Once the jar files have been added, please replace the AccessToken, AccessSecret, ConsumerKey, ConsumerSecret values with your generated API keys.<br>
+6.	Please run the application using run command in Eclipse.<br>
 
 
 ###Instructions to check the functionality:
